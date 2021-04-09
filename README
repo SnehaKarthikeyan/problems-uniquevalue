@@ -1,0 +1,84 @@
+
+Question:
+
+Malini was given a task to find the get values by deleting duplicates from the given array list and to arrange the array list in the ascending order. Write a program to help Malini to get the unique values by deleting duplicates from the given array list and to arrange the array list in the ascending order.
+
+Input Description: 
+
+The first line contains a positive integer denoting the length of the array, 1<=n<=20. The second line contains an array of n positive integers, 1<=arr[i]<=10^4.
+
+Output Description: 
+
+Print the unique values by deleting duplicates from the given array list in the ascending order.
+
+Hints: 
+
+Compare the elements, get the unique values by deleting duplicates from the given array list and sort in the ascending order.
+
+Sample Input:
+
+6
+1 3 2 5 3 5
+
+Sample Output:
+
+1 2 3 5
+
+Explanation:
+
+After removing duplicates, the resultant array after sorting in the ascending order is 1 2 3 5.
+
+Testcase 1:
+
+Input:
+
+14
+211 221 220 213 212 215 211 212 220 216 215 212 213 214 
+
+Output:
+
+211 212 213 214 215 216 220 221
+
+Testcase 2:
+
+Input:
+
+20
+12 15 11 12 17 16 15 12 13 14 15 16 17 11 12 15 14 16 17 12
+
+Output:
+
+11 12 13 14 15 16 17
+
+Testcase 3:
+
+Input:
+
+18
+6784 5678 6756 6796 5545 6795 6790 6596 6690 6755 6789 6796 6645 6788 6574 6796 6789 6655
+
+Output:
+
+5545 5678 6574 6596 6645 6655 6690 6755 6756 6784 6788 6789 6790 6795 6796
+
+Testcase 4:
+
+Input:
+
+8
+17795 17790 17596 17690 17755 17789 17796 17645
+
+Output:
+
+17596 17645 17690 17755 17789 17790 17795 17796
+
+Testcase 5:
+
+Input:
+
+25
+217 230 223 245 234 213 215 245 212 217 245 235 212 213 245 215 126 227 221 212 215 245 216 217 212
+
+Output:
+
+126 212 213 215 216 217 221 223 227 230 234 235 245
